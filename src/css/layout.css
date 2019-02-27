@@ -1,0 +1,104 @@
+@media (min-width: 641px) {
+  .hero {
+    text-align: center;
+    padding-top: 48px;
+    padding-bottom: 88px;
+  }
+}
+.hero {
+  text-align: left;
+  padding-top: 88px;
+  padding-bottom: 120px;
+}
+
+.inner-hero {
+  display: flex;
+  justify-content: space-between;
+}
+.hero-left {
+  padding-top: 40px;
+  padding-right: 48px;
+  min-width: 448px;
+  max-width: 512px;
+  z-index: 1;
+  position: relative;
+}
+.hero-media {
+  position: relative;
+}
+
+@media (min-width: 641px) {
+  .hero-media {
+    z-index: 0;
+  }
+}
+.header-illustration {
+  display: block;
+}
+.header-illustration-image {
+  -webkit-animation: fadeIn 3s both cubic-bezier(0.3, 0, 0.2, 1);
+  animation: fadeIn 3s both cubic-bezier(0.3, 0, 0.2, 1);
+  will-change: transform;
+  opacity: 1;
+}
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+}
+
+@media (min-width: 641px) {
+  .header-illustration-image {
+    display: block;
+    position: absolute;
+    top: -168px;
+    left: -722px;
+    width: 1440px;
+    height: 324px;
+  }
+}
+
+.hero-media-illustration {
+  position: absolute;
+  top: -10%;
+  left: -15px;
+}
+
+.hero-media-illustration-image {
+  -webkit-animation: fadeInLeftIllustration 1s 0.2s both cubic-bezier(0.3, 0, 0.2, 1);
+  animation: fadeInLeftIllustration 1s 0.2s both cubic-bezier(0.3, 0, 0.2, 1);
+  will-change: transform;
+  display: block;
+  opacity: 1;
+}
+@keyframes fadeInLeftIllustration {
+  0% {
+    opacity: 0;
+    -webkit-transform: scale(0.95) translate3d(40px, 10px, 0);
+    transform: scale(0.95) translate3d(40px, 10px, 0);
+  }
+}
+.hero-media-container {
+  position: relative;
+}
+.hero-media-image {
+  -webkit-animation: fadeInLeftMedia 1s 0.2s both cubic-bezier(0.3, 0, 0.2, 1);
+  animation: fadeInLeftMedia 1s 0.2s both cubic-bezier(0.3, 0, 0.2, 1);
+  will-change: transform;
+  margin: 0 auto;
+  box-shadow: 48px 16px 48px rgba(24, 37, 56, 0.12);
+  border-radius: 4px;
+  -webkit-transform: perspective(1000px) rotateY(16deg) rotateX(2deg) rotateZ(-7deg) scaleY(0.95) translatex(2%);
+  transform: perspective(1000px) rotateY(16deg) rotateX(2deg) rotateZ(-7deg) scaleY(0.95) translatex(2%);
+  box-shadow: 48px 16px 48px rgba(0, 0, 0, 0.2);
+}
+@keyframes fadeInLeftMedia {
+  0% {
+    opacity: 0;
+    -webkit-transform: scale(0.8) translate3d(40px, 10px, 0);
+    transform: scale(0.8) translate3d(40px, 10px, 0);
+  }
+  30% {
+    opacity: 1;
+  }
+}
