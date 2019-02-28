@@ -1,6 +1,6 @@
 [build]
-base = "portfolio/"
-publish = "portfolio/build/"
+base = "./"
+publish = "./build/"
 command = "yarn build"
 
 [[redirects]]
