@@ -5,7 +5,9 @@ function LandingPage() {
   return (
     <div style={{ height: "100vh", background: "#202d3f" }}>
       <Layout>
-        <header>app header</header>
+        <header style={{ textAlign: "center" }}>
+          <h1 style={{ fontSize: "1rem" }}>THIS WEBSITE IS STILL IN CONSTRUCTION</h1>
+        </header>
         <main>
           <Hero />
         </main>
