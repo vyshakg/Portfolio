@@ -1,0 +1,16 @@
+.portfolio-title {
+  font-size: 3rem;
+  color: #e9edf3;
+  letter-spacing: 1px;
+}
+.portfolio-para {
+  margin-right: 0 !important;
+}
+.desc-project {
+  flex-basis: 67%;
+  flex-grow: 0;
+}
+.fileup_home_img {
+  border-radius: 4px;
+  box-shadow: 48px 16px 48px rgba(0, 0, 0, 0.2);
+}
