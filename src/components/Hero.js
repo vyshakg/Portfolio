@@ -30,7 +30,7 @@ function Hero() {
               </a>
             </div>
             <div className="hero-cta">
-              <a className="button button-primary" href="/" style={{ marginRight: "2rem" }}>
+              <a className="button button-primary" href="/">
                 Contact Me
               </a>
               <a className="button" href="/">

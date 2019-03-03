@@ -15,12 +15,17 @@ export const Layout = styled.div`
 
 export const Container = styled.div`
   max-width: 1128px;
-  width: 100%;
+  // width: 100%;
   margin: 0 auto;
   padding-left: 16px;
   padding-right: 16px;
-  @media (min-width: 481px) {
-    padding-left: 24px;
-    padding-right: 24px;
+  @media (max-width: 481px) {
+    margin-left: 2rem;
+    padding: 0;
+    margin-right: 2rem;
+  }
+
+  @media (max-width: 1024px) {
+    max-width: 835px;
   }
 `;
