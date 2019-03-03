@@ -1,3 +1,6 @@
 /* @import "./_reset.css"; */
 @import "./hero.css";
 @import "./hero-media.css";
+@import "./portfolio.css";
+@import "./imageHover.css";
+@import "~aos/dist/aos.css";

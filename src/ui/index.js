@@ -1,3 +1,3 @@
 import { Container, Layout } from "./layout";
-
-export { Layout, Container };
+import { PortfolioWrapper, ProjectContainer, ProjectWrapper } from "./Portfolio";
+export { Layout, Container, PortfolioWrapper, ProjectWrapper, ProjectContainer };

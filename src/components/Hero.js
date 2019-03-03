@@ -3,7 +3,8 @@ import headerIllustration from "../images/header-illustration-dark.svg";
 import heroMediaDark from "../images/hero-media-dark-me.svg";
 import heroMediaIllustration from "../images/hero-media-illustration-dark.svg";
 import { Container } from "../ui";
-function Hero() {
+
+function Hero({ projectRef }) {
   return (
     <section className="hero">
       <Container>
@@ -33,7 +34,15 @@ function Hero() {
               <a className="button button-primary" href="/">
                 Contact Me
               </a>
-              <a className="button" href="/">
+              {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
+              <a
+                className="button"
+                onClick={() => {
+                  if (projectRef && projectRef.current) {
+                    projectRef.current.scrollIntoView({ behavior: "smooth" });
+                  }
+                }}
+              >
                 Portfolio
               </a>
             </div>
