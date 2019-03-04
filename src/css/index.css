@@ -4,3 +4,5 @@
 @import "./portfolio.css";
 @import "./imageHover.css";
 @import "~aos/dist/aos.css";
+@import "./tooltip.css";
+@import "./portfolio-media.css";

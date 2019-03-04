@@ -13,8 +13,8 @@ function Portfolio({ projectRef }) {
               Self-driven and Motivational side projects on various stack and Framework.
             </p>
           </div>
-          <div>
-            <Projects projectRef={projectRef} />
+          <div ref={projectRef}>
+            <Projects />
           </div>
         </PortfolioWrapper>
       </Container>

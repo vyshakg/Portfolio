@@ -39,7 +39,7 @@ function Hero({ projectRef }) {
                 className="button"
                 onClick={() => {
                   if (projectRef && projectRef.current) {
-                    projectRef.current.scrollIntoView({ behavior: "smooth" });
+                    projectRef.current.scrollIntoView({ behavior: "smooth", inline: "center" });
                   }
                 }}
               >
