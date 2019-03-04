@@ -17,11 +17,22 @@ function Fileup() {
   return (
     <ProjectContainer>
       <div className="desc-project">
-        <h1 className="project-title">Fileup</h1>
+        <h1 className="project-title">
+          Fileup
+          <a
+            href="https://github.com/vyshakg/FileUp"
+            target="_blank"
+            rel="noopener noreferrer"
+            alt="github"
+            style={{ float: "right" }}
+          >
+            <span className="project-link-helper">Source Code:</span>
+            <i className="fab fa-github" style={{ color: "white", marginRight: "20px", fontSize: "28px" }} />
+          </a>
+        </h1>
         <p className="project-para">
           Its a app silimar to google photos... where user can upload a photo save it on the cloud and view a photo
-          whenever they want. Along with it, its has some pro premium options where u can buy more space usig
-          credit\debit card.
+          whenever they want.
         </p>
         <span className="hero-link-helper" style={{ marginBottom: "13px" }}>
           Technologies used:
