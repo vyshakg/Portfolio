@@ -23,3 +23,8 @@
     margin: 3px 8px;
   }
 }
+@media (max-width: 400px) {
+  .off-diplay {
+    display: none !important;
+  }
+}

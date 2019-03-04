@@ -4,7 +4,7 @@ import heroMediaDark from "../images/hero-media-dark-me.svg";
 import heroMediaIllustration from "../images/hero-media-illustration-dark.svg";
 import { Container } from "../ui";
 
-function Hero({ projectRef }) {
+function Hero({ projectRef, contactsRef }) {
   return (
     <section className="hero">
       <Container>
@@ -30,8 +30,17 @@ function Hero({ projectRef }) {
                 <i className="fab fa-linkedin" style={{ color: "white", fontSize: "28px" }} />
               </a>
             </div>
+
             <div className="hero-cta">
-              <a className="button button-primary" href="/">
+              {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
+              <a
+                className="button button-primary"
+                onClick={() => {
+                  if (contactsRef && contactsRef.current) {
+                    contactsRef.current.scrollIntoView({ behavior: "smooth", inline: "center" });
+                  }
+                }}
+              >
                 Contact Me
               </a>
               {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}

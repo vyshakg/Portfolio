@@ -1,4 +1,15 @@
 import React from "react";
+import Apollo from "../../images/icons/apollo.svg";
+import docker from "../../images/icons/docker.svg";
+import expressjs from "../../images/icons/express-js.svg";
+import graphql from "../../images/icons/graphql.svg";
+import heroku from "../../images/icons/heroku.svg";
+import jest from "../../images/icons/jest.svg";
+import mongodb from "../../images/icons/mongodb.svg";
+import netlify from "../../images/icons/netlify.svg";
+import nodejs from "../../images/icons/nodejs.svg";
+import reactrouter from "../../images/icons/react-router.svg";
+import react from "../../images/icons/react.svg";
 import chatapp from "../../images/project-img/Chatapp_home.png";
 import { ProjectContainer } from "../../ui";
 
@@ -6,7 +17,73 @@ function ChatApp() {
   return (
     <ProjectContainer>
       <div className="desc-project">
-        <h1>chatapp</h1>
+        <h1 className="project-title">
+          ChatApp
+          <a
+            href="https://github.com/vyshakg/ChatApp-client"
+            target="_blank"
+            rel="noopener noreferrer"
+            alt="github"
+            style={{ float: "right" }}
+          >
+            <span className="project-link-helper off-diplay">Source Code:</span>
+            <i className="fab fa-github" style={{ color: "white", marginRight: "20px", fontSize: "28px" }} />
+          </a>
+        </h1>
+        <p className="project-para">
+          A chat aplication like facebook messager. where user can have conversation with other user with live
+          notification using web sockets.
+        </p>
+        <span className="hero-link-helper" style={{ marginBottom: "13px" }}>
+          Technologies used:
+        </span>
+        <div className="tech-icosns-holder">
+          <div className="tooltip">
+            <img src={nodejs} alt="nodejs-icn" className="icons-style " />
+            <span className="tooltiptext">Nodejs</span>
+          </div>
+          <div className="tooltip">
+            <img src={expressjs} alt="react-router-icn" className="icons-style" />
+
+            <span className="tooltiptext">Express</span>
+          </div>
+          <div className="tooltip">
+            <img src={graphql} alt="graphql-icn" className="icons-style" />
+            <span className="tooltiptext">Graphql</span>
+          </div>
+          <div className="tooltip">
+            <img src={mongodb} alt="mongodb-icn" className="icons-style" />
+            <span className="tooltiptext">mongodb</span>
+          </div>
+          <div className="tooltip">
+            <img src={Apollo} alt="apoloo-icn" className="icons-style" />
+            <span className="tooltiptext">Apollo</span>
+          </div>
+          <div className="tooltip">
+            <img src={react} alt="react-icn" className="icons-style" />
+            <span className="tooltiptext">React</span>
+          </div>
+          <div className="tooltip">
+            <img src={reactrouter} alt="react-router-icn" className="icons-style" />
+            <span className="tooltiptext">React router</span>
+          </div>
+          <div className="tooltip">
+            <img src={netlify} alt="netlify-icn" className="icons-style" />
+            <span className="tooltiptext">netlify</span>
+          </div>
+          <div className="tooltip">
+            <img src={jest} alt="jest-icn" className="icons-style" style={{ width: "5%" }} />
+            <span className="tooltiptext">Jest</span>
+          </div>
+          <div className="tooltip">
+            <img src={heroku} alt="heroku-icn" className="icons-style" style={{ width: "4%" }} />
+            <span className="tooltiptext">heroku</span>
+          </div>
+          <div className="tooltip">
+            <img src={docker} alt="docker-icn" className="icons-style" style={{ width: "8%" }} />
+            <span className="tooltiptext">Docker</span>
+          </div>
+        </div>
       </div>
       {/* <img src={fileup} alt="fileup_home" className="fileup_home_img" /> */}
       <div className="content" data-aos="fade-left" data-aos-delay="200" data-aos-offset="100">
