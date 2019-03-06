@@ -16,9 +16,7 @@
   border-radius: 4px;
   box-shadow: 48px 16px 48px rgba(0, 0, 0, 0.2);
 }
-.extra-style {
-  background-image: url("../images/project-bg.png");
-}
+
 .project-para {
   font-size: 17px;
   line-height: 22px;
