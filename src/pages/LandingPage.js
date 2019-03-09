@@ -23,11 +23,13 @@ function LandingPage() {
         <footer style={{ height: "9rem" }} className="has-top-divider">
           <Container>
             <div className="site-footer-inner">
-              <div class="footer-brand">
+              <div className="footer-brand">
                 <a href="/">
-                  <img class="asset-dark" src={logo} alt="Logo" className="logo-img-footer" />
+                  <img src={logo} alt="Logo" className="logo-img-footer" />
                 </a>
-                <p className="project-para">© 2019 Portfolio <br/> This website is built using React.JS</p>
+
+                <p className="project-para">© 2019 Portfolio - Build using React JS</p>
+
               </div>
             </div>
           </Container>

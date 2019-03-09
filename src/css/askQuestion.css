@@ -16,7 +16,7 @@
   margin-right: auto;
 }
 .section {
-  height: 19rem;
+  height: 25rem;
 }
 @media (max-width: 600px) {
   .cta::before {
