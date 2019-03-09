@@ -2,7 +2,8 @@ import React from "react";
 
 function Form() {
   return (
-    <form class="contact100-form validate-form" name="askQuetion" netlify>
+    <form class="contact100-form validate-form" name="askQuestion" method="post" data-netlify="true">
+      <input type="hidden" name="form-name" value="askQuestion" />
       <span class="contact100-form-title">Ask a Question</span>
 
       <div class="wrap-input100 rs1-wrap-input100 validate-input" data-validate="Name is required">
