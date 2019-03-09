@@ -27,7 +27,9 @@ function LandingPage() {
                 <a href="/">
                   <img src={logo} alt="Logo" className="logo-img-footer" />
                 </a>
+
                 <p className="project-para">© 2019 Portfolio - Build using React JS</p>
+
               </div>
             </div>
           </Container>
