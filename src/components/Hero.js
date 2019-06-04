@@ -14,12 +14,25 @@ function Hero({ projectRef, contactsRef }) {
             <h1 className="hero-name">Vyshak G</h1>
             <span className="hero-dash" />
             <p className="hero-para">
-              Software Engineer | Full Stack Web Developer | Nodejs | React.js and GraphQL Enthusiast
+              Software Engineer | Full Stack Web Developer | Spring Boot |
+              Nodejs | React.js and GraphQL Enthusiast
             </p>
             <div className="hero-links">
               <span className="hero-link-helper">Find Me on</span>
-              <a href="https://github.com/vyshakg" target="_blank" rel="noopener noreferrer" alt="github">
-                <i className="fab fa-github" style={{ color: "white", marginRight: "20px", fontSize: "28px" }} />
+              <a
+                href="https://github.com/vyshakg"
+                target="_blank"
+                rel="noopener noreferrer"
+                alt="github"
+              >
+                <i
+                  className="fab fa-github"
+                  style={{
+                    color: "white",
+                    marginRight: "20px",
+                    fontSize: "28px"
+                  }}
+                />
               </a>
               <a
                 href="https://www.linkedin.com/in/vyshak-g-gowda/"
@@ -27,7 +40,10 @@ function Hero({ projectRef, contactsRef }) {
                 rel="noopener noreferrer"
                 alt="linkedin"
               >
-                <i className="fab fa-linkedin" style={{ color: "white", fontSize: "28px" }} />
+                <i
+                  className="fab fa-linkedin"
+                  style={{ color: "white", fontSize: "28px" }}
+                />
               </a>
             </div>
 
@@ -37,7 +53,10 @@ function Hero({ projectRef, contactsRef }) {
                 className="button button-primary"
                 onClick={() => {
                   if (contactsRef && contactsRef.current) {
-                    contactsRef.current.scrollIntoView({ behavior: "smooth", inline: "center" });
+                    contactsRef.current.scrollIntoView({
+                      behavior: "smooth",
+                      inline: "center"
+                    });
                   }
                 }}
               >
@@ -48,7 +67,10 @@ function Hero({ projectRef, contactsRef }) {
                 className="button"
                 onClick={() => {
                   if (projectRef && projectRef.current) {
-                    projectRef.current.scrollIntoView({ behavior: "smooth", inline: "center" });
+                    projectRef.current.scrollIntoView({
+                      behavior: "smooth",
+                      inline: "center"
+                    });
                   }
                 }}
               >
@@ -72,7 +94,11 @@ function Hero({ projectRef, contactsRef }) {
               />
             </div>
             <div className="hero-media-container">
-              <img className="hero-media-image asset-dark" src={heroMediaDark} alt="Hero media" />
+              <img
+                className="hero-media-image asset-dark"
+                src={heroMediaDark}
+                alt="Hero media"
+              />
             </div>
           </div>
         </div>
