@@ -29,3 +29,19 @@ export const ProjectContainer = styled.div`
     padding-right: 0 !important;
   }
 `;
+export const ProjectContainerMore = styled.div`
+  height: 75px;
+  display: flex;
+  background-color: #304057;
+  box-shadow: 48px 16px 48px rgba(0, 0, 0, 0.2);
+  margin-bottom: 2rem;
+  border-radius: 6px;
+  @media (max-width: 1024px) {
+    padding-right: 2rem;
+  }
+  @media (max-width: 640px) {
+    // flex-direction: column-reverse;
+    height: 75px;
+    padding-right: 0 !important;
+  }
+`;
