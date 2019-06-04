@@ -15,7 +15,7 @@ function Hero({ projectRef, contactsRef }) {
             <span className="hero-dash" />
             <p className="hero-para">
               Software Engineer | Full Stack Web Developer | Spring Boot |
-              Nodejs | React.js and GraphQL Enthusiast
+              Nodejs | React.js and Docker Enthusiast
             </p>
             <div className="hero-links">
               <span className="hero-link-helper">Find Me on</span>
