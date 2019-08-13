@@ -1,39 +1,16 @@
-import React, { useRef } from "react";
-import AskQuestion from "../components/AskQuestion";
-import Contacts from "../components/Contacts";
-import Hero from "../components/Hero";
-import Portfolio from "../components/Portfolio";
-import logo from "../images/logo.png";
-import { Container, Layout } from "../ui";
-function LandingPage() {
-  const projectRef = useRef(null);
-  const contactsRef = useRef(null);
+import React from "react";
+import Footer from "../components/Footer";
+import Header from "../components/Header";
+import Main from "../components/Main";
+import { Layout } from "../ui";
 
+function LandingPage() {
   return (
     <div style={{ height: "100%", background: "#202d3f" }}>
       <Layout>
-        <header className="site-header" />
-
-        <main>
-          <Hero projectRef={projectRef} contactsRef={contactsRef} />
-          <Portfolio projectRef={projectRef} />
-          <Contacts contactsRef={contactsRef} />
-          <AskQuestion />
-        </main>
-        <footer style={{ height: "9rem" }} className="has-top-divider">
-          <Container>
-            <div className="site-footer-inner">
-              <div className="footer-brand">
-                <a href="/">
-                  <img src={logo} alt="Logo" className="logo-img-footer" />
-                </a>
-
-                <p className="project-para">© 2019 Portfolio - Build using React JS</p>
-
-              </div>
-            </div>
-          </Container>
-        </footer>
+        <Header />
+        <Main />
+        <Footer />
       </Layout>
     </div>
   );
