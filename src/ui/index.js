@@ -1,9 +1,9 @@
-import { Container, Layout } from "./layout";
+import { Container, Layout, MainContainer } from "./layout";
 import {
   PortfolioWrapper,
   ProjectContainer,
-  ProjectWrapper,
-  ProjectContainerMore
+  ProjectContainerMore,
+  ProjectWrapper
 } from "./Portfolio";
 export {
   Layout,
@@ -11,5 +11,6 @@ export {
   PortfolioWrapper,
   ProjectWrapper,
   ProjectContainer,
-  ProjectContainerMore
+  ProjectContainerMore,
+  MainContainer
 };

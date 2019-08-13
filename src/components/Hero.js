@@ -2,9 +2,12 @@ import React from "react";
 import headerIllustration from "../images/header-illustration-dark.svg";
 import heroMediaDark from "../images/hero-media-dark-me.svg";
 import heroMediaIllustration from "../images/hero-media-illustration-dark.svg";
+import { useTheme } from "../themes/themeContext";
 import { Container } from "../ui";
 
 function Hero({ projectRef, contactsRef }) {
+  const themeState = useTheme();
+
   return (
     <section className="hero">
       <Container>
@@ -76,6 +79,22 @@ function Hero({ projectRef, contactsRef }) {
               >
                 Portfolio
               </a>
+            </div>
+            <div style={{ display: "flex" }}>
+              <input
+                type="checkbox"
+                id="switch"
+                onClick={() => themeState.toggle()}
+              />
+              <label className="labelCustom" htmlFor="switch">
+                Toggle
+              </label>
+              <label>
+                {" "}
+                {themeState.dark
+                  ? "Switch to Light Mode"
+                  : "Switch to Dark Mode"}{" "}
+              </label>
             </div>
           </div>
           <div className="hero-media">
