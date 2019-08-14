@@ -1,11 +1,12 @@
 import React from "react";
-import { ProjectContainerMore } from "../ui";
+import { ProjectContainerMore } from "../../ui";
+import { HeroIconsLink, ProjectTitle } from "../../ui/fontColor";
 
 export default function More() {
   return (
     <ProjectContainerMore>
       <div>
-        <h3
+        <ProjectTitle
           style={{
             paddingTop: "1.3rem",
             paddingLeft: "2rem"
@@ -18,17 +19,17 @@ export default function More() {
             alt="github"
             style={{
               textDecoration: "none",
-              fontSize: "xx-large",
-              color: "#e9edf3"
+              fontSize: "inherit",
+              color: "inherit"
             }}
           >
             More In Github{" "}
-            <i
+            <HeroIconsLink
               className="fab fa-github"
-              style={{ color: "white", marginRight: "20px", fontSize: "28px" }}
+              style={{ marginRight: "20px", fontWeight: "100" }}
             />
           </a>
-        </h3>
+        </ProjectTitle>
       </div>
     </ProjectContainerMore>
   );

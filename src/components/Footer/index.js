@@ -1,6 +1,7 @@
 import React from "react";
 import logo from "../../images/logo.png";
 import { Container } from "../../ui";
+import { ProjectPara } from "../../ui/fontColor";
 
 export default function Footer() {
   return (
@@ -12,9 +13,7 @@ export default function Footer() {
               <img src={logo} alt="Logo" className="logo-img-footer" />
             </a>
 
-            <p className="project-para">
-              © 2019 Portfolio - Build using React JS
-            </p>
+            <ProjectPara>© 2019 Portfolio - Build using React JS</ProjectPara>
           </div>
         </div>
       </Container>

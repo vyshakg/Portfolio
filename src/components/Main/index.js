@@ -1,8 +1,8 @@
 import React, { useRef } from "react";
-import AskQuestion from "../AskQuestion";
-import Contacts from "../Contacts";
-import Hero from "../Hero";
-import Portfolio from "../Portfolio";
+import AskQuestion from "./AskQuestion";
+import Contacts from "./Contacts";
+import Hero from "./Hero";
+import Portfolio from "./Portfolio";
 
 export default function Main() {
   const projectRef = useRef(null);

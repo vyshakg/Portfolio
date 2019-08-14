@@ -1,8 +1,8 @@
-.portfolio-title {
+/* .portfolio-title {
   font-size: 3rem;
   color: #e9edf3;
   letter-spacing: 1px;
-}
+} */
 .portfolio-para {
   margin-right: 0 !important;
 }
@@ -17,17 +17,10 @@
   box-shadow: 48px 16px 48px rgba(0, 0, 0, 0.2);
 }
 
-.project-para {
-  font-size: 17px;
-  line-height: 22px;
-  margin-top: 1rem;
-  margin-bottom: 2rem;
-  color: #8595ae;
-}
-.project-title {
+/* .project-title {
   font-size: xx-large;
   color: #e9edf3;
-}
+} */
 .icons-style {
   width: 6%;
   margin: 3px 9px;
@@ -37,8 +30,8 @@
   box-shadow: 48px 16px 48px rgba(0, 0, 0, 0.2);
   border-radius: 7px;
 }
-.project-link-helper {
+/* .project-link-helper {
   font-size: small;
   color: #cccccc;
   margin: 8px;
-}
+} */
