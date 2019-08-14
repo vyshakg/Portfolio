@@ -1,3 +1,4 @@
+import { Cta } from "./askQuestion";
 import { Container, Layout, MainContainer } from "./layout";
 import {
   PortfolioWrapper,
@@ -5,6 +6,7 @@ import {
   ProjectContainerMore,
   ProjectWrapper
 } from "./Portfolio";
+
 export {
   Layout,
   Container,
@@ -12,5 +14,6 @@ export {
   ProjectWrapper,
   ProjectContainer,
   ProjectContainerMore,
-  MainContainer
+  MainContainer,
+  Cta
 };

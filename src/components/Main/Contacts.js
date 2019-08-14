@@ -1,33 +1,34 @@
 import React from "react";
-import featuresBoxDark from "../../images/features-box-dark.svg";
-import featuresIllustrationDark from "../../images/features-illustration-dark.svg";
-import featuresIllustrationTopDark from "../../images/features-illustration-top-dark.svg";
+import { useTheme } from "../../themes/themeContext";
 import { Container } from "../../ui";
 import { PortfolioTitle } from "../../ui/fontColor";
+import { DividerUi } from "../../ui/layout";
 function Contacts({ contactsRef }) {
+  const themeState = useTheme();
+
   return (
     <section style={{ marginTop: "6rem" }}>
       <Container>
         <div ref={contactsRef}>
           <div style={{ textAlign: "center" }} className="">
             <PortfolioTitle>Contact Me</PortfolioTitle>
-            <div className="features-image divider-class">
+            <DividerUi className="features-image">
               <img
                 className="features-illustration"
-                src={featuresIllustrationDark}
+                src={themeState.images.featuresIllustration}
                 alt="Feature illustration"
               />
               <img
                 className="features-box"
-                src={featuresBoxDark}
+                src={themeState.images.featuresBox}
                 alt="Feature box"
               />
               <img
                 className="features-illustration"
-                src={featuresIllustrationTopDark}
+                src={themeState.images.featuresIllustrationTop}
                 alt="Feature illustration top"
               />
-            </div>
+            </DividerUi>
           </div>
         </div>
       </Container>

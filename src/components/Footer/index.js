@@ -2,10 +2,11 @@ import React from "react";
 import logo from "../../images/logo.png";
 import { Container } from "../../ui";
 import { ProjectPara } from "../../ui/fontColor";
+import { FooterUi } from "../../ui/layout";
 
 export default function Footer() {
   return (
-    <footer style={{ height: "9rem" }} className="has-top-divider">
+    <FooterUi>
       <Container>
         <div className="site-footer-inner">
           <div className="footer-brand">
@@ -17,6 +18,6 @@ export default function Footer() {
           </div>
         </div>
       </Container>
-    </footer>
+    </FooterUi>
   );
 }

@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import Modal from "react-responsive-modal";
-import { Container } from "../../ui";
+import { Container, Cta } from "../../ui";
 import { PortfolioTitle, ProjectPara } from "../../ui/fontColor";
 import Form from "./Form";
 
@@ -15,7 +15,7 @@ function AskQuestion() {
   }
 
   return (
-    <section style={{ marginTop: "12rem" }} className="cta section">
+    <Cta style={{ marginTop: "12rem" }} className="section">
       <Container>
         <div style={{ textAlign: "center" }}>
           <PortfolioTitle>Ask A Question?</PortfolioTitle>
@@ -41,7 +41,7 @@ function AskQuestion() {
           </div>
         </div>
       </Container>
-    </section>
+    </Cta>
   );
 }
 

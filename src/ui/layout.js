@@ -34,3 +34,54 @@ export const Container = styled.div`
     max-width: 835px;
   }
 `;
+
+export const HeaderUi = styled.header`
+  height: 70px;
+  position: relative;
+
+  @media (max-width: 640px) {
+    &:before {
+      content: "";
+      position: absolute;
+      top: -140px;
+      right: -100px;
+      width: 1440px;
+      height: 324px;
+      background-image: url(${props => props.theme.images.headerIllustration});
+      -webkit-animation: fadeIn 2s both cubic-bezier(0.3, 0, 0.2, 1);
+      animation: fadeIn 2s both cubic-bezier(0.3, 0, 0.2, 1);
+      will-change: transform;
+      opacity: 1;
+    }
+  }
+`;
+
+export const FooterUi = styled.footer`
+  height: 9rem;
+  position: relative;
+
+  &:before {
+    content: "";
+    position: absolute;
+    top: 32px;
+    left: 0;
+    width: 100%;
+    display: block;
+    height: 1px;
+    background: ${props => props.theme.tabs};
+  }
+`;
+
+export const DividerUi = styled.div`
+  &:before {
+    content: "";
+    position: absolute;
+    bottom: -120px;
+    left: 0;
+    width: 100%;
+    display: block;
+    height: 1px;
+
+    background: ${props => props.theme.tabs};
+  }
+`;

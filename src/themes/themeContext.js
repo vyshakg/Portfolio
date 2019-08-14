@@ -28,7 +28,6 @@ const useEffectDarkMode = () => {
 
 const CustomThemeProvider = ({ children }) => {
   const [themeState, setThemeState] = useEffectDarkMode();
-
   if (!themeState.hasThemeMounted) {
     return <div />;
   }
@@ -46,7 +45,8 @@ const CustomThemeProvider = ({ children }) => {
       <ThemeContext.Provider
         value={{
           dark: themeState.dark,
-          toggle
+          toggle,
+          images: computedTheme.images
         }}
       >
         {children}

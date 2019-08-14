@@ -1,7 +1,4 @@
 import React from "react";
-import headerIllustration from "../../images/header-illustration-dark.svg";
-import heroMediaDark from "../../images/hero-media-dark-me.svg";
-import heroMediaIllustration from "../../images/hero-media-illustration-dark.svg";
 import { useTheme } from "../../themes/themeContext";
 import { Container } from "../../ui";
 import {
@@ -14,6 +11,8 @@ import {
 
 function Hero({ projectRef, contactsRef }) {
   const themeState = useTheme();
+
+  console.log(themeState);
 
   return (
     <section className="hero">
@@ -100,21 +99,21 @@ function Hero({ projectRef, contactsRef }) {
             <div className="header-illustration">
               <img
                 className="header-illustration-image asset-dark"
-                src={headerIllustration}
+                src={themeState.images.headerIllustration}
                 alt="Header illustration"
               />
             </div>
             <div className="hero-media-illustration">
               <img
                 className="hero-media-illustration-image asset-dark"
-                src={heroMediaIllustration}
+                src={themeState.images.heroMediaIllustration}
                 alt="Hero media illustration"
               />
             </div>
             <div className="hero-media-container">
               <img
                 className="hero-media-image asset-dark"
-                src={heroMediaDark}
+                src={themeState.images.heroMedia}
                 alt="Hero media"
               />
             </div>

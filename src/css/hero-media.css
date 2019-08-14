@@ -30,19 +30,19 @@
   .hero-media-illustration-image {
     max-width: 114%;
   }
-  .site-header::before {
+  /* .site-header::before {
     content: "";
     position: absolute;
     top: -140px;
     right: -100px;
     width: 1440px;
     height: 324px;
-    background-image: url(../images/header-illustration-dark.svg);
+    background-image: url(../images/dark/header-illustration-dark.svg);
     -webkit-animation: fadeIn 2s both cubic-bezier(0.3, 0, 0.2, 1);
     animation: fadeIn 2s both cubic-bezier(0.3, 0, 0.2, 1);
     will-change: transform;
     opacity: 1;
-  }
+  } */
 }
 
 @media (max-width: 1024px) {

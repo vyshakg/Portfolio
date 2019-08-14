@@ -1,15 +1,15 @@
-.cta::before {
+/* .cta::before {
   content: "";
   position: absolute;
   bottom: -32px;
   left: calc(50% - 720px);
   height: 263px;
   width: 1440px;
-  background-image: url("../images/cta-illustration-dark.svg");
-}
-.cta {
+  background-image: url("../images/light/cta-illustration-light.svg");
+} */
+/* .cta {
   position: relative;
-}
+} */
 .cta-cta {
   max-width: 400px;
   margin-left: auto;
@@ -18,8 +18,8 @@
 .section {
   height: 25rem;
 }
-@media (max-width: 600px) {
+/* @media (max-width: 600px) {
   .cta::before {
     display: none;
   }
-}
+} */

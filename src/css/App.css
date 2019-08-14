@@ -1,4 +1,4 @@
-.has-top-divider::before {
+/* .has-top-divider::before {
   content: "";
   position: absolute;
   top: 32px;
@@ -10,7 +10,7 @@
 }
 .has-top-divider {
   position: relative;
-}
+} */
 .site-footer-inner {
   justify-content: space-between;
   padding-top: 72px;

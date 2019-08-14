@@ -1,3 +1,38 @@
+import ctaIllustrationDark from "../images/dark/cta-illustration-dark.svg";
+import featuresBoxDark from "../images/dark/features-box-dark.svg";
+import featuresIllustrationDark from "../images/dark/features-illustration-dark.svg";
+import featuresIllustrationTopDark from "../images/dark/features-illustration-top-dark.svg";
+import headerIllustrationDark from "../images/dark/header-illustration-dark.svg";
+import heroMediaDark from "../images/dark/hero-media-dark.svg";
+import heroMediaIllustrationDark from "../images/dark/hero-media-illustration-dark.svg";
+import ctaIllustrationLight from "../images/light/cta-illustration-light.svg";
+import featuresBoxLight from "../images/light/features-box-light.svg";
+import featuresIllustrationLight from "../images/light/features-illustration-light.svg";
+import featuresIllustrationTopLight from "../images/light/features-illustration-top-light.svg";
+import headerIllustrationLight from "../images/light/header-illustration-light.svg";
+import heroMediaIllustrationLight from "../images/light/hero-media-illustration-light.svg";
+import heroMediaLight from "../images/light/hero-media-light.svg";
+
+const darkImages = {
+  headerIllustration: headerIllustrationDark,
+  heroMediaIllustration: heroMediaIllustrationDark,
+  heroMedia: heroMediaDark,
+  featuresBox: featuresBoxDark,
+  featuresIllustration: featuresIllustrationDark,
+  featuresIllustrationTop: featuresIllustrationTopDark,
+  ctaIllustration: ctaIllustrationDark
+};
+
+const lightImages = {
+  headerIllustration: headerIllustrationLight,
+  heroMediaIllustration: heroMediaIllustrationLight,
+  heroMedia: heroMediaLight,
+  featuresBox: featuresBoxLight,
+  featuresIllustration: featuresIllustrationLight,
+  featuresIllustrationTop: featuresIllustrationTopLight,
+  ctaIllustration: ctaIllustrationLight
+};
+
 const darkTheme = {
   primary1: "white",
   paragraph: "#8595ae",
@@ -6,7 +41,8 @@ const darkTheme = {
   tabs: "#304057",
   behindScreen: "#202d3f",
   techStack: "aliceblue",
-  helperText: "#cccccc"
+  helperText: "#cccccc",
+  images: darkImages
 };
 
 const lightTheme = {
@@ -16,7 +52,8 @@ const lightTheme = {
   background: "#f5f5f5",
   tabs: "#E9EDF3",
   helperText: "#2d2c2c",
-  header: "#4e4b4b"
+  header: "#4e4b4b",
+  images: lightImages
 };
 
 const theme = mode => (mode === "dark" ? darkTheme : lightTheme);
