@@ -12,8 +12,6 @@ import {
 function Hero({ projectRef, contactsRef }) {
   const themeState = useTheme();
 
-  console.log(themeState);
-
   return (
     <section className="hero">
       <Container>
@@ -85,6 +83,7 @@ function Hero({ projectRef, contactsRef }) {
               <input
                 type="checkbox"
                 id="switch"
+                defaultChecked={!themeState.dark}
                 onClick={() => themeState.toggle()}
               />
               <label className="labelCustom" htmlFor="switch">
