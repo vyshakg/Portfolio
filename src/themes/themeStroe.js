@@ -42,6 +42,7 @@ const darkTheme = {
   behindScreen: "#202d3f",
   techStack: "aliceblue",
   helperText: "#cccccc",
+  timeLine: "#e9edf3",
   images: darkImages
 };
 
@@ -53,6 +54,7 @@ const lightTheme = {
   tabs: "#E9EDF3",
   helperText: "#2d2c2c",
   header: "#4e4b4b",
+  timeLine: "#384e71",
   images: lightImages
 };
 

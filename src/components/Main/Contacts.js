@@ -7,10 +7,10 @@ function Contacts({ contactsRef }) {
   const themeState = useTheme();
 
   return (
-    <section style={{ marginTop: "6rem" }}>
+    <section style={{ marginTop: "3rem" }}>
       <Container>
         <div ref={contactsRef}>
-          <div style={{ textAlign: "center" }} className="">
+          <div style={{ textAlign: "center" }}>
             <PortfolioTitle>Contact Me</PortfolioTitle>
             <DividerUi className="features-image">
               <img

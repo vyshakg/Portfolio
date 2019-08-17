@@ -1,24 +1,24 @@
 import React from "react";
-import Apollo from "../../../images/icons/apollo.svg";
-import docker from "../../../images/icons/docker.svg";
-import expressjs from "../../../images/icons/express-js.svg";
-import graphql from "../../../images/icons/graphql.svg";
-import heroku from "../../../images/icons/heroku.svg";
-import jest from "../../../images/icons/jest.svg";
-import mongodb from "../../../images/icons/mongodb.svg";
-import netlify from "../../../images/icons/netlify.svg";
-import nodejs from "../../../images/icons/nodejs.svg";
-import reactrouter from "../../../images/icons/react-router.svg";
-import react from "../../../images/icons/react.svg";
-import chatapp from "../../../images/project-img/Chatapp_home.png";
-import { ProjectContainer } from "../../../ui";
+import Apollo from "../../../../images/icons/apollo.svg";
+import docker from "../../../../images/icons/docker.svg";
+import expressjs from "../../../../images/icons/express-js.svg";
+import graphql from "../../../../images/icons/graphql.svg";
+import heroku from "../../../../images/icons/heroku.svg";
+import jest from "../../../../images/icons/jest.svg";
+import mongodb from "../../../../images/icons/mongodb.svg";
+import netlify from "../../../../images/icons/netlify.svg";
+import nodejs from "../../../../images/icons/nodejs.svg";
+import reactrouter from "../../../../images/icons/react-router.svg";
+import react from "../../../../images/icons/react.svg";
+import chatapp from "../../../../images/project-img/Chatapp_home.png";
+import { ProjectContainer } from "../../../../ui";
 import {
   HeroIconsLink,
   HeroLinkHelper,
   ProjectLinkHelper,
   ProjectPara,
   ProjectTitle
-} from "../../../ui/fontColor";
+} from "../../../../ui/fontColor";
 
 function ChatApp() {
   return (

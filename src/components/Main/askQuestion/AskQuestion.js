@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import Modal from "react-responsive-modal";
-import { Container, Cta } from "../../ui";
-import { PortfolioTitle, ProjectPara } from "../../ui/fontColor";
+import { Container, Cta } from "../../../ui";
+import { PortfolioTitle, ProjectPara } from "../../../ui/fontColor";
 import Form from "./Form";
 
 function AskQuestion() {

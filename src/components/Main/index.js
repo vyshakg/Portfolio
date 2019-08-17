@@ -1,8 +1,9 @@
 import React, { useRef } from "react";
-import AskQuestion from "./AskQuestion";
+import AskQuestion from "./askQuestion/AskQuestion";
 import Contacts from "./Contacts";
 import Hero from "./Hero";
-import Portfolio from "./Portfolio";
+import Portfolio from "./portfolio/Portfolio";
+import TimeLine from "./TimeLine";
 
 export default function Main() {
   const projectRef = useRef(null);
@@ -11,6 +12,7 @@ export default function Main() {
   return (
     <main>
       <Hero projectRef={projectRef} contactsRef={contactsRef} />
+      <TimeLine />
       <Portfolio projectRef={projectRef} />
       <Contacts contactsRef={contactsRef} />
       <AskQuestion />

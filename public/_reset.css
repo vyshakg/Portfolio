@@ -169,6 +169,6 @@ h5,
 h6,
 p,
 span {
-  color: white;
+  /* color: white; */
   font-family: "Heebo", sans-serif;
 }

@@ -1,6 +1,6 @@
 import React from "react";
-import { ProjectContainerMore } from "../../ui";
-import { HeroIconsLink, ProjectTitle } from "../../ui/fontColor";
+import { ProjectContainerMore } from "../../../ui";
+import { HeroIconsLink, ProjectTitle } from "../../../ui/fontColor";
 
 export default function More() {
   return (

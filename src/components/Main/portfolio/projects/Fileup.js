@@ -1,24 +1,24 @@
 import React from "react";
-import docker from "../../../images/icons/docker.svg";
-import expressjs from "../../../images/icons/express-js.svg";
-import jest from "../../../images/icons/jest.svg";
-import nodejs from "../../../images/icons/nodejs.svg";
-import postgresql from "../../../images/icons/postgresql.svg";
-import reactrouter from "../../../images/icons/react-router.svg";
-import react from "../../../images/icons/react.svg";
-import redis from "../../../images/icons/redis.svg";
-import redux from "../../../images/icons/redux.svg";
-import stripe from "../../../images/icons/stripe.svg";
-import typescript from "../../../images/icons/typescript.svg";
-import fileup from "../../../images/project-img/fileup_home.png";
-import { ProjectContainer } from "../../../ui";
+import docker from "../../../../images/icons/docker.svg";
+import expressjs from "../../../../images/icons/express-js.svg";
+import jest from "../../../../images/icons/jest.svg";
+import nodejs from "../../../../images/icons/nodejs.svg";
+import postgresql from "../../../../images/icons/postgresql.svg";
+import reactrouter from "../../../../images/icons/react-router.svg";
+import react from "../../../../images/icons/react.svg";
+import redis from "../../../../images/icons/redis.svg";
+import redux from "../../../../images/icons/redux.svg";
+import stripe from "../../../../images/icons/stripe.svg";
+import typescript from "../../../../images/icons/typescript.svg";
+import fileup from "../../../../images/project-img/fileup_home.png";
+import { ProjectContainer } from "../../../../ui";
 import {
   HeroIconsLink,
   HeroLinkHelper,
   ProjectLinkHelper,
   ProjectPara,
   ProjectTitle
-} from "../../../ui/fontColor";
+} from "../../../../ui/fontColor";
 
 function Fileup() {
   return (
