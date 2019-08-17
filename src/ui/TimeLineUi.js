@@ -83,6 +83,7 @@ export const TimeLineImg = styled.img`
   @media (max-width: 530px) {
     margin-left: 18px;
     margin-bottom: 5px;
+    width: 60px;
   }
 `;
 
