@@ -77,7 +77,7 @@ export const TimeLineContainerLi = styled.li`
 export const TimeLineImg = styled.img`
   height: 60px;
   border-radius: 10px;
-  width: 60px;
+
   border: 3px solid #8a8a8a;
 
   @media (max-width: 530px) {
