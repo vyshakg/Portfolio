@@ -45,16 +45,34 @@ export default function TimeLine() {
             <div>
               <span />
               <div className="title">Infosys</div>
-              <div className="info">System Engineer Trainee</div>
-              <div className="helpinfo">Mysore</div>
+              <div className="info">System Engineer</div>
+              <div className="helpinfo">Mysore - Chennai</div>
+              <div className="work_desc">
+                <div className="work_desc">
+                  • Finished My Infosys Training with 82% percent aggregation in
+                  Java, SQL and React.
+                  <br /> • Creating react components and building rapid
+                  development of website for client presentation.
+                  <br /> • building reusable components, and performance
+                  optimization.
+                  <br /> • Architected frontend, created reducers, data
+                  retrieval mechanisms.
+                  <br /> • Handled cross browser compatibility and
+                  responsiveness for the front end.
+                  <br /> • Responsible for state management (Redux based) of our
+                  application.
+                  <br /> • Experience in development of React components. Worked
+                  with Axios & React.JS for AJAX Calls making.
+                </div>
+              </div>
               <div className="worked_on">
-                WORKED ON : <TimeLineTags> Java </TimeLineTags>
-                <TimeLineTags> React JS </TimeLineTags>
-                <TimeLineTags> SQL </TimeLineTags>
+                WORKED ON :<TimeLineTags> React JS </TimeLineTags>
+                <TimeLineTags> Redux </TimeLineTags>
+                <TimeLineTags> Javascript </TimeLineTags>
               </div>
             </div>
             <span className="number">
-              <span>Jan'18</span> <span>May'18</span>
+              <span>Jan'18</span> <span>Oct'18</span>
             </span>
           </TimeLineContainerLi>
           <TimeLineContainerLi>
@@ -62,27 +80,57 @@ export default function TimeLine() {
             <div>
               <span />
               <div className="title">Infosys</div>
-              <div className="info">System Engineer </div>
-              <div className="helpinfo">Chennai,Mysore</div>
+              <div className="info">Full stack web developer (MERN)</div>
+              <div className="helpinfo">Mysore</div>
 
               <div className="work_desc">
-                My Role is to create React Components , Web application and
-                Enhancing the User Experience in the User Interfacae and also
-                Rapid prototyping on various client based Web application for
-                Demo and Presentation purposes.
+                • Mentor junior members of the team, overseeing development work
+                efforts and quality. <br />
+                • Designed Node.js application components through Express.js.
+                <br />
+                • Develop and execute unit, testing of developed software
+                components or API’s.
+                <br />
+                • Work in a high-speed, agile environment to ship features in
+                the shortest time possible.
+                <br />
+                • Calling multiple third-party API’s in Asynchronous fashion.
+                <br />
+                • Strong knowledge in unit testing with jest & Super-test.
+                <br />
+                • Have experience with using Node.js to interact with MongoDB
+                (mongoose).
+                <br />
+                • MERN Stack development experience (Mongo dB, Express, Node,
+                React).
+                <br />
+                • Implemented Git + Gitlab for version control.
+                <br />
+                • Deployed multiple Nodejs application in IDP (Infosys
+                deployment platform) through Docker.
+                <br />
+                • Have good understanding in the Authentication of user using
+                JWT.
+                <br />
+                • Have strong knowledge in writing Dockerfile and docker-compose
+                files.
+                <br />
+                • Deployed multiple application in Heroku and Netlify.
+                <br />
               </div>
               <div className="worked_on">
                 WORKED ON :<TimeLineTags> React JS</TimeLineTags>
                 <TimeLineTags> Mongo DB </TimeLineTags>
                 <TimeLineTags> Node JS </TimeLineTags>
+                <TimeLineTags> Express </TimeLineTags>
               </div>
             </div>
             <span className="number">
-              <span>Jun'18</span> <span>Apr'19</span>
+              <span>Nov'18</span> <span>{current}</span>
             </span>
           </TimeLineContainerLi>
 
-          <TimeLineContainerLi>
+          {/* <TimeLineContainerLi>
             <TimeLineImg src={Infosys} alt="institute" />
             <div>
               <span />
@@ -106,7 +154,7 @@ export default function TimeLine() {
             <span className="number">
               <span>Mar'19</span> <span>{current}</span>
             </span>
-          </TimeLineContainerLi>
+          </TimeLineContainerLi> */}
         </TimeLineContainerUL>
       </Container>
     </section>
