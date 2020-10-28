@@ -21,10 +21,11 @@ function Hero({ projectRef, contactsRef }) {
             <h1 className="hero-name">Vyshak G</h1>
             <span className="hero-dash" />
             <HeroPara>
-              Software Engineer | Full Stack Web Developer | Spring Boot |
+              Software Engineer | Full Stack Web Developer |
               Nodejs | React.js and Docker Enthusiast
             </HeroPara>
             <div className="hero-links">
+              <div>
               <HeroLinkHelper>Find Me on</HeroLinkHelper>
               <a
                 href="https://github.com/vyshakg"
@@ -47,6 +48,26 @@ function Hero({ projectRef, contactsRef }) {
               >
                 <HeroIconsLink className="fab fa-linkedin" />
               </a>
+              </div>
+              <div className='resume-preview-right-icon'>
+              <HeroLinkHelper>Resume Preview</HeroLinkHelper>
+              <a
+                href="https://drive.google.com/file/d/1GwbhFFnmxHj4ecsxMOevWsnmcDZD01B9/view?usp=sharing"
+                target="_blank"
+                rel="noopener noreferrer"
+                alt="github"
+              >
+                <HeroIconsLink
+                  className="fas fa-file-pdf"
+                  style={{
+                    marginRight: "20px"
+                  }}
+                />
+              </a>
+              </div>
+        
+            
+
             </div>
 
             <div className="hero-cta">

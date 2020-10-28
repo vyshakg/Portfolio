@@ -1,6 +1,7 @@
 /* eslint-disable jsx-a11y/accessible-emoji */
 import React from "react";
-import Infosys from "../../images/infosys.jpg";
+import Infosys from "../../images/infosys.png";
+import Tc from "../../images/team-computers.png";
 import Institute from "../../images/school.jpg";
 import { Container } from "../../ui";
 import { PortfolioTitle } from "../../ui/fontColor";
@@ -126,7 +127,50 @@ export default function TimeLine() {
               </div>
             </div>
             <span className="number">
-              <span>Nov'18</span> <span>{current}</span>
+              <span>Nov'18</span> <span>Jan'20</span>
+            </span>
+          </TimeLineContainerLi>
+
+
+          <TimeLineContainerLi>
+            <TimeLineImg src={Tc} alt="institute" />
+            <div>
+              <span />
+              <div className="title">Team Computers</div>
+              <div className="info">Node js Backend Developer</div>
+              <div className="helpinfo">Bangalore</div>
+
+              <div className="work_desc">
+                • Deployed to one of their client Location and worked on Chat bots and Email Bot. <br />
+                • Created a complex algorithm to manipulate data and feed it to train ML models.
+                <br />
+                • Develop and execute unit, testing of developed software
+                components or API’s.
+                <br />
+                • Worked on creating customs chats bots and chat cards to meet the client requirements.
+                <br />
+                • Have a knowledge on Logging events and creating PostgreSQL queries to show in Dashboard.
+                <br />
+                • Worked on external API’s/clients API’s and integrated with our system to meet client requirements.
+                <br />
+                • Have a knowledge on optimizing queries and creating best index for better performance.
+                <br />
+                • Have a knowledge on writing efficient Dockerfile with multi-stage and passing ENV's.
+                <br/>
+                • Have a knowledge on fixing security issues in npm modules.
+              </div>
+              <div className="worked_on">
+                WORKED ON :
+                <TimeLineTags> Node JS </TimeLineTags>
+                <TimeLineTags> Express </TimeLineTags>
+                <TimeLineTags> Koa </TimeLineTags>
+                <TimeLineTags> Postgres </TimeLineTags>
+                <TimeLineTags> Mongo DB </TimeLineTags>
+                <TimeLineTags> Docker </TimeLineTags>
+              </div>
+            </div>
+            <span className="number">
+              <span>Feb'20</span> <span>{current}</span>
             </span>
           </TimeLineContainerLi>
 

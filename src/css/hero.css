@@ -135,6 +135,7 @@
 }
 .hero-links {
   margin-top: 1rem;
+  display: flex;
 }
 
 .button {
@@ -175,3 +176,6 @@
 
   position: relative;
 } */
+.resume-preview-right-icon{
+  margin-left: 2rem;
+}
