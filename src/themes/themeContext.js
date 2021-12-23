@@ -21,7 +21,7 @@ const useEffectDarkMode = () => {
         let isDark = localStorage.getItem("dark");
         isDark = isDark === null || isDark === undefined ? false : isDark === "true";
         setThemeState({ ...themeState, dark: isDark, hasThemeMounted: true });
-    }, []);
+    }, [themeState]);
 
     return [themeState, setThemeState];
 };
