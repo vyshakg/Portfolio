@@ -5,19 +5,19 @@ import { ProjectPara } from "../../ui/fontColor";
 import { FooterUi } from "../../ui/layout";
 
 export default function Footer() {
-  return (
-    <FooterUi>
-      <Container>
-        <div className="site-footer-inner">
-          <div className="footer-brand">
-            <a href="/">
-              <img src={logo} alt="Logo" className="logo-img-footer" />
-            </a>
+    return (
+        <FooterUi>
+            <Container>
+                <div className="site-footer-inner">
+                    <div className="footer-brand">
+                        <a href="/">
+                            <img src={logo} alt="Logo" className="logo-img-footer" />
+                        </a>
 
-            <ProjectPara>© 2019 Portfolio - Build using React JS</ProjectPara>
-          </div>
-        </div>
-      </Container>
-    </FooterUi>
-  );
+                        <ProjectPara>© 2021 Portfolio - Built using React JS</ProjectPara>
+                    </div>
+                </div>
+            </Container>
+        </FooterUi>
+    );
 }

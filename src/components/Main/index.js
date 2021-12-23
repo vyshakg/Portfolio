@@ -1,9 +1,9 @@
-import React, { useRef } from 'react';
-import AskQuestion from './askQuestion/AskQuestion';
-import Contacts from './Contacts';
-import Hero from './Hero';
+import React, { useRef } from "react";
+import AskQuestion from "./askQuestion/AskQuestion";
+import Contacts from "./Contacts";
+import Hero from "./Hero";
 // import Portfolio from './portfolio/Portfolio';
-import TimeLine from './TimeLine';
+import TimeLine from "./TimeLine";
 
 export default function Main() {
     const timeLineRef = useRef(null);
