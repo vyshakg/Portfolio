@@ -40,7 +40,7 @@ function Hero({ timeLineRef, contactsRef }) {
                             <div className="resume-preview-right-icon">
                                 <HeroLinkHelper>Resume Preview</HeroLinkHelper>
                                 <a
-                                    href="https://drive.google.com/file/d/1DvskwJ4SDa7QaXIG5ouS4A1D4px2w1BE/view?usp=sharing"
+                                    href="https://drive.google.com/file/d/18h9RwEAmJMKDnJZRKj-OsWFRbyQs2aZc/view?usp=sharing"
                                     target="_blank"
                                     rel="noopener noreferrer"
                                     alt="github"
