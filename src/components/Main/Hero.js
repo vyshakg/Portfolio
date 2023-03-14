@@ -15,7 +15,7 @@ function Hero({ timeLineRef, contactsRef }) {
                         <h1 className="hero-name">Vyshak G</h1>
                         <span className="hero-dash" />
                         <HeroPara>
-                            Senior Software Engineer | Java | Spring Boot | Node.js | React.js and Docker Enthusiast
+                            Lead Developer | Full Stack Developer 
                         </HeroPara>
                         <div className="hero-links">
                             <div>
