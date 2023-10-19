@@ -18,7 +18,9 @@ import react from "../../images/icons/react.svg";
 import postgresql from "../../images/icons/postgresql.svg";
 import java from "../../images/icons/java.svg";
 import springboot from "../../images/icons/springboot.svg";
-// import elasticsearch from '../../images/icons/elasticsearch.svg';
+import kafka from "../../images/icons/kafka.svg";
+import openshift from '../../images/icons/openshift.svg';
+import azure from '../../images/icons/azure.svg';
 
 export default function TimeLine({ timeLineRef }) {
     const now = new Date();
@@ -31,18 +33,159 @@ export default function TimeLine({ timeLineRef }) {
                     <PortfolioTitle>My TimeLine</PortfolioTitle>
                 </div>
                 <TimeLineContainerUL>
-                    <TimeLineContainerLi>
-                        <TimeLineImg src={Institute} alt="institute" />
-                        <span />
-                        <div>
-                            <div className="title">BE - Information Science & Engineer</div>
-                            <div className="info">Vidyavardhaka College of Engineering</div>
-                            <div className="helpinfo">Mysore</div>
-                        </div>
+
+                <TimeLineContainerLi>
+                        <TimeLineImg src={brillio} alt="institute" />
+                        <TimeLineMainWrapper>
+                            <div className="timeline-wrapper">
+                                <span />
+                                <div className="title">Brillio</div>
+                                <div className="info">Lead Software developer & Senior Software Engineer</div>
+                                <div className="helpinfo">Bangalore</div>
+                                <div className="work_desc">
+                                    <br /> • Have experience in Domain Driven Design, Event Driven Design and Outbox pattern.
+                                    <br /> • Built an Web based application which is used to claim a defective/return Products.
+                                    <br /> • Complete architecture and design decision done as i am only backend developer in the
+                                    team.
+                                    <br /> • Desgin microservices and async way of handling jobs using aws SQS/SNS.
+                                    <br /> • Creating bamboo configs for deployments with bit-bucket.
+                                    <br /> • Good knowledge on AWS cloudformation,Aurora,Cloudfront,CloudWatch and Lambda etc.
+                                    <br /> • Worked/Created and Maintained multiple Microservices of Spring boot.
+                                    <br /> • Good understanding of client legacy System and working on various integration to
+                                    update the system.
+                                    <br /> • Designing API and maintaining a microservice with another German client which deployed to openshift kubernetes cluster.
+                                    <br /> • Worked on Events contract of Kafka Avro Schema which consumed events by multiple service. 
+                                    <br /> • Worked on migration tools like Flyway.  
+                                    <br /> • worked on outbox pattern using Debezium. 
+                                </div>
+                                <div className="worked_on">
+                                    WORKED ON : <TimeLineTags> Spring Boot </TimeLineTags>
+                                    <TimeLineTags> Java </TimeLineTags>
+                                    <TimeLineTags> Kakfa </TimeLineTags>
+                                    <TimeLineTags> Node JS </TimeLineTags>
+                                    <TimeLineTags> Javascript </TimeLineTags>
+                                    <TimeLineTags>ELK</TimeLineTags>
+                                    <TimeLineTags> Microservices </TimeLineTags>
+                                    <TimeLineTags> PostgresSQL </TimeLineTags>
+                                    <TimeLineTags> AWS </TimeLineTags>
+                                    <TimeLineTags> Kubernetes </TimeLineTags>
+                                    <TimeLineTags> React </TimeLineTags>
+                                </div>
+                                {/* <HeroLinkHelper style={{ marginBottom: '13px' }}>Technologies used:</HeroLinkHelper> */}
+                            </div>
+                            <div className="tech-icosns-holder">
+                                <div className="tooltip">
+                                    <img
+                                        src={springboot}
+                                        alt="spring-boot-icn"
+                                        className="icons-style "
+                                        style={{ width: "85%" }}
+                                    />
+                                    <span className="tooltiptext">Spring boot</span>
+                                </div>
+                                <div className="tooltip">
+                                    <img src={aws} alt="aws-icn" className="icons-style" />
+                                    <span className="tooltiptext">aws</span>
+                                </div>
+
+                                <div className="tooltip">
+                                    <img src={openshift} alt="openshift-icn" className="icons-style" />
+                                    <span className="tooltiptext">openshift</span>
+                                </div>
+                                <div className="tooltip">
+                                    <img src={postgresql} alt="postgresql-icn" className="icons-style" />
+                                    <span className="tooltiptext">Postgresql</span>
+                                </div>
+                                <div className="tooltip">
+                                    <img src={k8} alt="k8-icn" className="icons-style" />
+                                    <span className="tooltiptext">Kubernetes</span>
+                                </div>
+                                <div className="tooltip">
+                                    <img src={nodejs} alt="nodejs-icn" className="icons-style" />
+                                    <span className="tooltiptext">Node.js</span>
+                                </div>
+                                <div className="tooltip">
+                                    <img src={kafka} alt="kafka-icn" className="icons-style" />
+                                    <span className="tooltiptext">Kafka</span>
+                                </div>
+                                <div className="tooltip">
+                                    <img src={azure} alt="azure-icn" className="icons-style" />
+                                    <span className="tooltiptext">Azure</span>
+                                </div>
+
+                            </div>
+                        </TimeLineMainWrapper>
                         <span className="number">
-                            <span>Jul'13</span> <span>Jun'17</span>
+                            <span>{current}</span> <span>Jan'21</span>
                         </span>
                     </TimeLineContainerLi>
+
+                    
+                    <TimeLineContainerLi>
+                        <TimeLineImg src={Tc} alt="institute" />
+                        <TimeLineMainWrapper>
+                            <div className="timeline-wrapper">
+                                <span />
+                                <div className="title">Team Computers</div>
+                                <div className="info">Software Engineer II</div>
+                                <div className="helpinfo">Bangalore</div>
+                                <div className="work_desc">
+                                    <br /> • Built an analytics tool with Node.js and PostgresSQL, that provided external/internal{" "}
+                                    <br />
+                                    dashboards for 1B daily events.
+                                    <br /> • Worked on their Products like Chat bots and Email Bot and creating customs chat bots
+                                    <br /> and chat cards to meet the client requirements.
+                                    <br /> • Optimizing queries and creating best index for better performance.
+                                    <br /> • Created a complex algorithm to manipulate data and feed it to train ML models.
+                                    <br /> • Integrated more than 2 external software like Facebook, Zendesk and others.
+                                    <br /> • Have a knowledge on writing efficient Dockerfile with multi-stage and passing ENV's.
+                                    <br /> • Have a knowledge on fixing security issues in npm modules.
+                                </div>
+                                <div className="worked_on">
+                                    WORKED ON :<TimeLineTags> Node JS </TimeLineTags>
+                                    <TimeLineTags> Javascript </TimeLineTags>
+                                    <TimeLineTags> Express/Koa </TimeLineTags>
+                                    <TimeLineTags> Microservices </TimeLineTags>
+                                    <TimeLineTags> Postgres </TimeLineTags>
+                                    <TimeLineTags> Mongo DB </TimeLineTags>
+                                    <TimeLineTags> Docker </TimeLineTags>
+                                </div>
+                                {/* <HeroLinkHelper style={{ marginBottom: '13px' }}>Technologies used:</HeroLinkHelper> */}
+                            </div>
+                            <div className="tech-icosns-holder">
+                                <div className="tooltip">
+                                    <img src={nodejs} alt="nodejs-icn" className="icons-style " />
+                                    <span className="tooltiptext">Nodejs</span>
+                                </div>
+                                <div className="tooltip">
+                                    <img src={mongodb} alt="mongodb-icn" className="icons-style" />
+                                    <span className="tooltiptext">mongodb</span>
+                                </div>
+
+                                <div className="tooltip">
+                                    <img src={react} alt="react-icn" className="icons-style" />
+                                    <span className="tooltiptext">React</span>
+                                </div>
+                                <div className="tooltip">
+                                    <img src={postgresql} alt="postgresql-icn" className="icons-style" />
+                                    <span className="tooltiptext">Postgresql</span>
+                                </div>
+                                <div className="tooltip">
+                                    <img src={gcp} alt="gcp-icn" className="icons-style" />
+                                    <span className="tooltiptext">Google cloud</span>
+                                </div>
+                                <div className="tooltip">
+                                    <img src={docker} alt="docker-icn" className="icons-style" style={{ width: "60%" }} />
+                                    <span className="tooltiptext">Docker</span>
+                                </div>
+                            </div>
+                        </TimeLineMainWrapper>
+                        <span className="number">
+                            <span>Dec'20</span> <span>Feb'20</span>
+                        </span>
+                    </TimeLineContainerLi>
+                    
+
                     <TimeLineContainerLi>
                         <TimeLineImg src={Infosys} alt="institute" />
                         <TimeLineMainWrapper>
@@ -113,140 +256,21 @@ export default function TimeLine({ timeLineRef }) {
                             </div>
                         </TimeLineMainWrapper>
                         <span className="number">
-                            <span>Jan'18</span> <span>Jan'20</span>
+                            <span>Jan'20</span> <span>Jan'18</span>
                         </span>
                     </TimeLineContainerLi>
-                    <TimeLineContainerLi>
-                        <TimeLineImg src={Tc} alt="institute" />
-                        <TimeLineMainWrapper>
-                            <div className="timeline-wrapper">
-                                <span />
-                                <div className="title">Team Computers</div>
-                                <div className="info">Software Engineer II</div>
-                                <div className="helpinfo">Bangalore</div>
-                                <div className="work_desc">
-                                    <br /> • Built an analytics tool with Node.js and PostgresSQL, that provided external/internal{" "}
-                                    <br />
-                                    dashboards for 1B daily events.
-                                    <br /> • Worked on their Products like Chat bots and Email Bot and creating customs chat bots
-                                    <br /> and chat cards to meet the client requirements.
-                                    <br /> • Optimizing queries and creating best index for better performance.
-                                    <br /> • Created a complex algorithm to manipulate data and feed it to train ML models.
-                                    <br /> • Integrated more than 2 external software like Facebook, Zendesk and others.
-                                    <br /> • Have a knowledge on writing efficient Dockerfile with multi-stage and passing ENV's.
-                                    <br /> • Have a knowledge on fixing security issues in npm modules.
-                                </div>
-                                <div className="worked_on">
-                                    WORKED ON :<TimeLineTags> Node JS </TimeLineTags>
-                                    <TimeLineTags> Javascript </TimeLineTags>
-                                    <TimeLineTags> Express/Koa </TimeLineTags>
-                                    <TimeLineTags> Microservices </TimeLineTags>
-                                    <TimeLineTags> Postgres </TimeLineTags>
-                                    <TimeLineTags> Mongo DB </TimeLineTags>
-                                    <TimeLineTags> Docker </TimeLineTags>
-                                </div>
-                                {/* <HeroLinkHelper style={{ marginBottom: '13px' }}>Technologies used:</HeroLinkHelper> */}
-                            </div>
-                            <div className="tech-icosns-holder">
-                                <div className="tooltip">
-                                    <img src={nodejs} alt="nodejs-icn" className="icons-style " />
-                                    <span className="tooltiptext">Nodejs</span>
-                                </div>
-                                <div className="tooltip">
-                                    <img src={mongodb} alt="mongodb-icn" className="icons-style" />
-                                    <span className="tooltiptext">mongodb</span>
-                                </div>
 
-                                <div className="tooltip">
-                                    <img src={react} alt="react-icn" className="icons-style" />
-                                    <span className="tooltiptext">React</span>
-                                </div>
-                                <div className="tooltip">
-                                    <img src={postgresql} alt="postgresql-icn" className="icons-style" />
-                                    <span className="tooltiptext">Postgresql</span>
-                                </div>
-                                <div className="tooltip">
-                                    <img src={gcp} alt="gcp-icn" className="icons-style" />
-                                    <span className="tooltiptext">Google cloud</span>
-                                </div>
-                                <div className="tooltip">
-                                    <img src={docker} alt="docker-icn" className="icons-style" style={{ width: "60%" }} />
-                                    <span className="tooltiptext">Docker</span>
-                                </div>
-                            </div>
-                        </TimeLineMainWrapper>
-                        <span className="number">
-                            <span>Feb'20</span> <span>Dec'20</span>
-                        </span>
-                    </TimeLineContainerLi>
-                    <TimeLineContainerLi>
-                        <TimeLineImg src={brillio} alt="institute" />
-                        <TimeLineMainWrapper>
-                            <div className="timeline-wrapper">
-                                <span />
-                                <div className="title">Brillio</div>
-                                <div className="info">Senior Software Engineer</div>
-                                <div className="helpinfo">Bangalore</div>
-                                <div className="work_desc">
-                                    <br /> • Built an Web based application which is used to claim a defective/return Products.
-                                    <br /> • Complete architecture and design decision done as i am only backend developer in the
-                                    team.
-                                    <br /> • Desgin microservices and async way of handling jobs using aws SQS/SNS.
-                                    <br /> • Creating bamboo configs for deployments with bit-bucket.
-                                    <br /> • Good knowledge on AWS cloudformation,Aurora,Cloudfront,CloudWatch and Lambda etc.
-                                    <br /> • Worked/Created and Maintained multiple Microservices of Spring boot.
-                                    <br /> • Good understanding of client legacy System and working on various integration to
-                                    update the system.
-                                </div>
-                                <div className="worked_on">
-                                    WORKED ON : <TimeLineTags> Spring Boot </TimeLineTags>
-                                    <TimeLineTags> Java </TimeLineTags>
-                                    <TimeLineTags> Node JS </TimeLineTags>
-                                    <TimeLineTags> Javascript </TimeLineTags>
-                                    <TimeLineTags>ELK</TimeLineTags>
-                                    <TimeLineTags> Microservices </TimeLineTags>
-                                    <TimeLineTags> PostgresSQL </TimeLineTags>
-                                    <TimeLineTags> AWS </TimeLineTags>
-                                    <TimeLineTags> Kubernetes </TimeLineTags>
-                                    <TimeLineTags> React </TimeLineTags>
-                                </div>
-                                {/* <HeroLinkHelper style={{ marginBottom: '13px' }}>Technologies used:</HeroLinkHelper> */}
-                            </div>
-                            <div className="tech-icosns-holder">
-                                <div className="tooltip">
-                                    <img
-                                        src={springboot}
-                                        alt="spring-boot-icn"
-                                        className="icons-style "
-                                        style={{ width: "85%" }}
-                                    />
-                                    <span className="tooltiptext">Spring boot</span>
-                                </div>
-                                <div className="tooltip">
-                                    <img src={aws} alt="aws-icn" className="icons-style" />
-                                    <span className="tooltiptext">aws</span>
-                                </div>
 
-                                <div className="tooltip">
-                                    <img src={java} alt="java-icn" className="icons-style" />
-                                    <span className="tooltiptext">Java</span>
-                                </div>
-                                <div className="tooltip">
-                                    <img src={postgresql} alt="postgresql-icn" className="icons-style" />
-                                    <span className="tooltiptext">Postgresql</span>
-                                </div>
-                                <div className="tooltip">
-                                    <img src={k8} alt="k8-icn" className="icons-style" />
-                                    <span className="tooltiptext">Kubernetes</span>
-                                </div>
-                                <div className="tooltip">
-                                    <img src={nodejs} alt="nodejs-icn" className="icons-style" />
-                                    <span className="tooltiptext">Node.js</span>
-                                </div>
-                            </div>
-                        </TimeLineMainWrapper>
+                    <TimeLineContainerLi>
+                        <TimeLineImg src={Institute} alt="institute" />
+                        <span />
+                        <div>
+                            <div className="title">BE - Information Science & Engineer</div>
+                            <div className="info">Vidyavardhaka College of Engineering</div>
+                            <div className="helpinfo">Mysore</div>
+                        </div>
                         <span className="number">
-                            <span>Jan'21</span> <span>{current}</span>
+                            <span>Jun'17</span> <span>Jul'13</span>
                         </span>
                     </TimeLineContainerLi>
                 </TimeLineContainerUL>

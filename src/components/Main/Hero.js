@@ -1,7 +1,7 @@
 import React from "react";
 import { useTheme } from "../../themes/themeContext";
 import { Container } from "../../ui";
-import { HeroIconsLink, HeroLinkHelper, HeroPara, HeroTag, SwitchHelperText } from "../../ui/fontColor";
+import { HeroIconsLink, HeroLinkHelper, HeroPara, HeroTag, SwitchHelperText, HeroSummary } from "../../ui/fontColor";
 
 function Hero({ timeLineRef, contactsRef }) {
     const themeState = useTheme();
@@ -17,6 +17,12 @@ function Hero({ timeLineRef, contactsRef }) {
                         <HeroPara>
                             Lead Developer | Full Stack Developer 
                         </HeroPara>
+                        <HeroSummary>
+                        Passionate Full Stack Developer with 6 years of experience in developing web applications and backend systems.
+                        Skilled at writing clear, concise code that is easy to maintain and troubleshoot.
+                        Experienced in working with both small and large teams across multiple projects and companies.
+                        Able to work independently of remote locations or in office environments as needed by the company.
+                        </HeroSummary>
                         <div className="hero-links">
                             <div>
                                 <HeroLinkHelper>Find Me on</HeroLinkHelper>

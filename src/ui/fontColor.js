@@ -34,6 +34,21 @@ export const HeroPara = styled.p`
   }
 `;
 
+
+export const HeroSummary = styled.p`
+  font-size: 12px;
+  line-height: 22px;
+  margin-top: 1rem;
+  margin-right: 5rem;
+  margin-bottom: 2rem;
+  color: ${props => props.theme.paragraph};
+  transition: all 0.4s ease-out;
+
+  @media (max-width: 640px) {
+    margin-right: 0;
+  }
+`;
+
 export const ProjectPara = styled.p`
   font-size: 17px;
   line-height: 22px;
