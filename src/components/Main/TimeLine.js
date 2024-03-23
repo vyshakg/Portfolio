@@ -41,7 +41,7 @@ export default function TimeLine({ timeLineRef }) {
                                 <span />
                                 <div className="title">Brillio</div>
                                 <div className="info">Lead Software developer & Senior Software Engineer</div>
-                                <div className="helpinfo">Bangalore</div>
+                                <div className="helpinfo">San Francisco Bay Area & Bangalore</div>
                                 <div className="work_desc">
                                     <br /> • Have experience in Domain Driven Design, Event Driven Design and Outbox pattern.
                                     <br /> • Built an Web based application which is used to claim a defective/return Products.

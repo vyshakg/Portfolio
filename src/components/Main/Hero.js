@@ -18,10 +18,8 @@ function Hero({ timeLineRef, contactsRef }) {
                             Lead Developer | Full Stack Developer 
                         </HeroPara>
                         <HeroSummary>
-                        Passionate Full Stack Developer with 6 years of experience in developing web applications and backend systems.
-                        Skilled at writing clear, concise code that is easy to maintain and troubleshoot.
-                        Experienced in working with both small and large teams across multiple projects and companies.
-                        Able to work independently of remote locations or in office environments as needed by the company.
+                        Full Stack Software Developer with 6+ years of experience in developing web applications and backend systems.
+                        Working towards to be strong software architect & love to explore in AI application development using lang chain.
                         </HeroSummary>
                         <div className="hero-links">
                             <div>

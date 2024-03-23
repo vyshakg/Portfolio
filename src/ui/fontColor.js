@@ -36,7 +36,7 @@ export const HeroPara = styled.p`
 
 
 export const HeroSummary = styled.p`
-  font-size: 12px;
+  font-size: 15px;
   line-height: 22px;
   margin-top: 1rem;
   margin-right: 5rem;
